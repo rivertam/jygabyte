@@ -18,8 +18,10 @@ class Phone extends Component {
   render() {
     return (
       <div className="Phone">
-        <div className="Screen">
-          { this.props.children }
+        <div className="Screen-Wrapper">
+          <div className="Screen">
+            { this.props.children }
+          </div>
         </div>
       </div>
     );
