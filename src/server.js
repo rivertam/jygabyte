@@ -39,7 +39,7 @@ server.get('*', async (req, res, next) => {
     });
 
     const html = ReactDOM.renderToStaticMarkup(<Html {...data} />);
-    res.status(statusCode).send('<!doctype html>\n' + html);
+    res.status(statusCode).send(`<!doctype html>\n${html}`);
   } catch (err) {
     next(err);
   }
@@ -51,7 +51,7 @@ server.get('*', async (req, res, next) => {
 
 server.listen(server.get('port'), () => {
   /* eslint-disable no-console */
-  console.log('The server is running at http://localhost:' + server.get('port'));
+  console.log(`The server is running at http://localhost:${server.get('port')}`);
   if (process.send) {
     process.send('online');
   }

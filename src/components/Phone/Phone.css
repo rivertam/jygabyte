@@ -1,0 +1,41 @@
+/* React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
+
+@import '../variables.css';
+
+:root {
+  --phone-height: 50vh;
+}
+
+.Phone {
+  margin: 0 auto;
+  width: calc(0.47438 * var(--phone-height));
+  max-width: 90vw;
+
+  /* this preserves aspect ratio when the width maxes out
+   * (based on http://stackoverflow.com/a/12121309/1129436)
+   */
+  &:after {
+   padding-bottom: 210.8%;
+   display: block;
+   content: '';
+  }
+  max-width: 100vw;
+  background-color: black;
+  border-radius: 3%;
+  position: relative;
+
+  .Screen {
+    position: absolute;
+    display: block;
+    background-color: white;
+    width: 95%;
+    margin: 10% auto;
+    right: 0; left: 0;
+
+    &:after {
+      padding-bottom: calc(16%/9%);
+      display: block;
+      content: '';
+    }
+  }
+}
