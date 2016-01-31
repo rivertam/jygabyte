@@ -1,0 +1,9 @@
+/* React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
+
+.Status-Bar {
+  width:100%;
+  background-color: black;
+  color: white;
+
+  text-align: right;
+}
