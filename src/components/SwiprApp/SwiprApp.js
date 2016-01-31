@@ -3,6 +3,7 @@
 import React, { PropTypes, Component } from 'react';
 import styles from './SwiprApp.css';
 import withStyles from '../../decorators/withStyles';
+import SwiprNav from './SwiprNav';
 
 @withStyles(styles)
 class SwiprApp extends Component {
@@ -17,8 +18,7 @@ class SwiprApp extends Component {
     this.context.onSetTitle('Ben Berman on Swipr');
     return (
       <div className="SwiprApp">
-        <h1>All my life</h1>
-        <h2>There you go</h2>
+        <SwiprNav />
       </div>
     );
   }

@@ -1,0 +1,6 @@
+{
+  "name": "SwiprNav",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SwiprNav.js"
+}

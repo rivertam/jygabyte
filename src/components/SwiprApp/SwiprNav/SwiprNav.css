@@ -1,0 +1,31 @@
+/* React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
+
+.Swipr-App-Nav {
+  width: 100%;
+  position: relative;
+  margin: 0;
+  top: 0;
+  text-align: center;
+  border-bottom: 1px solid #CCC;
+  line-height: 5vh;
+  font-size: 2vh;
+}
+
+h2 {
+  position: absolute;
+  margin: 0 auto;
+  left: 0; right: 0;
+}
+
+.Contact-Link {
+  display: block;
+  float: right;
+  margin-right: 5%;
+  font-size: 2em;
+  text-decoration: none;
+  color: #CCC;
+}
+
+.clearfix {
+  clear: both;
+}
