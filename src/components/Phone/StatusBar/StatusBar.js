@@ -11,9 +11,7 @@ class StatusBar extends Component {
     children: PropTypes.element,
   };
 
-  static contextTypes = {
-    onSetTitle: PropTypes.func.isRequired,
-  };
+  static contextTypes = { };
 
   render() {
     return (

@@ -1,0 +1,31 @@
+/* React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
+
+.-card-stack {
+  position: relative;
+
+}
+
+img {
+  width: 95%;
+}
+
+.card-wrapper {
+  position: absolute;
+  width: 80%;
+  border: 1px solid #AAA;
+}
+
+.card-wrapper:after {
+  content: '';
+  padding-bottom: 100%;
+  display:block;
+}
+
+.card {
+  position: absolute;
+  text-align: center;
+
+  img {
+    margin: 0 auto;
+  }
+}

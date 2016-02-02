@@ -1,6 +1,6 @@
 /*! React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
 
-import React, { PropTypes, Component } from 'react';
+import React, { Component } from 'react';
 import styles from './SwiprNav.css';
 import withStyles from '../../../decorators/withStyles';
 import Link from '../../Link';
@@ -10,9 +10,7 @@ class SwiprNav extends Component {
 
   static propTypes = { };
 
-  static contextTypes = {
-    onSetTitle: PropTypes.func.isRequired,
-  };
+  static contextTypes = { };
 
   render() {
     return (

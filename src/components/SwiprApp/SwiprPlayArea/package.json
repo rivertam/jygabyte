@@ -1,0 +1,6 @@
+{
+  "name": "SwiprPlayArea",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SwiprPlayArea.js"
+}
