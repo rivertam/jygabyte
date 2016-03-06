@@ -26,6 +26,7 @@ export default task('start', async () => {
   await require('./serve')();
 
   browserSync({
+    open: false,
     proxy: {
 
       target: 'localhost:5000',

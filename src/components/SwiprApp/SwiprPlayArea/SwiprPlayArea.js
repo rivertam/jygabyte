@@ -8,7 +8,9 @@ import SwiprCardStack from './SwiprCardStack';
 @withStyles(styles)
 class SwiprPlayArea extends Component {
 
-  static propTypes = { };
+  static propTypes = {
+    
+  };
 
   static contextTypes = { };
 
